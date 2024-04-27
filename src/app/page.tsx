@@ -29,6 +29,7 @@ export default function Home() {
     revalidatePath("/");
 
     // tinggal masukin ke database imageURLnya === uploadResult?.url 
+    // ada kekurangan di cloudinary file nya tidak terorganisir
   }
 
   const cookieStore = cookies();
